@@ -29,3 +29,9 @@ xtk.js
 
 # nfs
 *.nfs*
+
+build/
+node_modules/
+package-lock.json
+lib/google-closure-library
+xtk.js

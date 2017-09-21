@@ -86,6 +86,20 @@ Get it right here: <b><a href="http://get.goXTK.com/xtk.js">xtk.js</a></b> or in
 <script type="text/javascript" src="http://get.goXTK.com/xtk.js"></script>
 ```
 
+## NPM
+
+```bash
+npm install xtk
+# or
+yarn add xtk
+```
+
+```js
+import 'xtk';
+
+// window.X is now available
+```
+
 ## Example Usage ##
 
 ```javascript

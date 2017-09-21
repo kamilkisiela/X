@@ -1,0 +1,35 @@
+{
+  "name": "xtk",
+  "version": "10.0.0",
+  "description": "The X Toolkit: WebGL™ for Scientific Visualization",
+  "main": "xtk.js",
+  "scripts": {
+    "build": "./utils/build.py",
+    "test": "./utils/test.py -b",
+
+    "prepare": "npm run build",
+    "postbuild": "./node_modules/.bin/copyfiles -f utils/xtk.js .",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamilkisiela/X.git"
+  },
+  "keywords": [
+    "WebGL",
+    "toolkit",
+    "visualization",
+    "scientific",
+    "3D",
+    "xtk"
+  ],
+  "author": "The X Toolkit Developers <dev@goXTK.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamilkisiela/X/issues"
+  },
+  "homepage": "https://github.com/kamilkisiela/X#readme",
+  "devDependencies": {
+    "copyfiles": "^1.2.0"
+  }
+}
